@@ -3,6 +3,11 @@
 <p align="center">
     <img src="https://yourusername.github.io/anime-readme/" alt="Anime ReadMe" width="600px">
 </p>
+<h1 align="center">Welcome to My GitHub Profile!</h1>
+
+<p align="center">
+    <img src="https://yourusername.github.io/anime-readme/" alt="Anime GitHub Profile" width="600px">
+</p>
 
 ## 🌸 About Me
 - 👨‍💻 I love coding and anime!
