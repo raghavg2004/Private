@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime.js Animated ReadMe</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <style>
+        body {
+            background-color: #121212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+        .anime-container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .anime-girl {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="anime-container">
+        <h1>Welcome to My GitHub Profile!</h1>
+        <img src="https://i.imgur.com/K6qVv9T.gif" alt="Anime Character" class="anime-girl">
+    </div>
+
+    <script>
+        anime({
+            targets: '.anime-girl',
+            translateY: [-10, 10],
+            direction: 'alternate',
+            loop: true,
+            easing: 'easeInOutSine',
+            duration: 1000
+        });
+    </script>
+</body>
+</html>
